@@ -1,1 +1,72 @@
-code1 
+code1 check error
+
+class Gcek
+{
+    static int number_of_stores;
+    int number_of_vilages;
+    public void kalhandiTown()
+    {
+        System.out.println("Total number of Vilages In Kalahandi: "+number_of_vilages);
+        System.out.println("Total number of Stores In Kalahandi: "+number_of_stores);
+    }
+}
+class Cuttuck
+{
+    static int number_of_stores;
+    int number_of_vilages;
+    public Void ctcTown()
+    {
+        System.out.println("Total number of Vilages In Cuttuck: "+number_of_vilages);
+        System.out.println("Total number of Stores In Cuttuck: "+number_of_stores);
+    }
+}
+class Bhadrak;
+{
+    static int number_of_stores;
+    int number_of_vilages;
+    public void bdkTown()
+    {
+        System.out.println("Total number of Vilages In Bhadrak: "+number_of_vilages);
+        System.out.println("Total number of Stores In Bhadrak: "+number_of_stores);
+    }
+}
+class Balasore
+{
+    static int number_of_stores;
+    int number_of_vilages;
+    public void blsTown()
+    {
+        System.out.println("Total number of Vilages In Balasore: "+number_of_vilages);
+        System.out.println("Total number of Stores In Balasore: "+number_of_stores);
+    }
+}
+class Test11
+ {
+    public Static void main(string[] args)
+ {
+        Gcek gcek_college= new Gcek();
+        Cuttuck ctc= new Cuttuck();
+        Bhadrak bdk= new Bhadrak();
+        Balasore bls= new Balasore();
+
+        gcek_college.number_of_vilages=334;
+        Gcek.number_of_stores=230;
+        ctc.number_of_vilages=190;
+        Cuttuck.number_of_stores=400;
+        gcek_college.kalhandiTown();
+        ctc.ctcTown();
+        Balasore.number_of_stores=90;
+        bdk.number_of_vilages=230;
+        Bhadrak.number_of_stores=300;
+        Gcek.number_of_stores=22;
+        bdk.bdkTown();
+        Cuttuck.number_of_stores=22;
+        gcek_college.kalhandiTown();
+        bls.number_of_vilages=200;
+        Balasore.number_of_stores=340;
+        bls.blsTown();
+        ctc.ctcTown();
+        bdk.bdkTown();
+
+    }
+}
